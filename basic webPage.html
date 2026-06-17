@@ -1,54 +1,176 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>"My First Web Page"</title>
-    </head>
-    <body style="background-color:powderblue;">
-        <marquee>Welcome to My first webpage</marquee>
-        <h1 style="color:blue;"> This is Heading 1</h1>
-        <h2 style="color:green;">This is the Heading 2</h2>
-        <h3 style="color:pink">This is the Heading 3</h3>
-        <h4 style="color:yellow">This is the Heading 4</h4>
-        <h5 style="color:black;">This is the Heading 5</h5>
-        <h6 style="color:orange;">This is the Heading 6</h6>
-        <hr style="border: 2px solid black;">
-        <p style="color: red;"> This is a First Paragraph</p>
-        <br>
-        <pre style="color:blue; text-align:center;font-size:20px;"> This is a Second Paragraph
+
+<head>
+    <title>"My First Web Page"</title>
+
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: lightgray;
+        border-radius: 10px;
+        padding-top: 10px;
+        border-style: dashed;
+        border-spacing: 10px;
+
+        tr:hover {
+            background-color: blue;
+        }
+    }
+</style>
+
+<body style="background-color:powderblue;">
+    <marquee>Welcome to My first webpage</marquee>
+    <h1 style="color:blue;"> This is Heading 1</h1>
+    <h2 style="color:green;">This is the Heading 2</h2>
+    <h3 style="color:pink">This is the Heading 3</h3>
+    <h4 style="color:yellow">This is the Heading 4</h4>
+    <h5 style="color:black;">This is the Heading 5</h5>
+    <h6 style="color:orange;">This is the Heading 6</h6>
+    <hr style="border: 2px solid black;">
+    <p style="color: red;"> This is a First Paragraph</p>
+    <br>
+    <pre style="color:blue; text-align:center;font-size:20px;"> This is a Second Paragraph
 
             This is the First line of Seconf Paragraph
 
             This  is the Third Line of Second Paragraph
         </pre>
-        <br>
-        <p style="text-align:center;">This is a Third Paragraph</p>
-        <p style=color:blue; text-align:center; "font-family:courier;">This is a Fourth Paragraph</p>
+    <br>
+    <p style="text-align:center;">This is a Third Paragraph</p>
+    <p style=color:blue; text-align:center; "font-family:courier;">This is a Fourth Paragraph</p>
 
-        <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools</a> <br>
-        <a href="https://www.githubShashank319.com">My Github</a>"<br>
+    <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools</a> <br>
+    <a href="https://www.githubShashank319.com">My Github</a>"<br>
 
-        
-        <img src="https://tse2.mm.bing.net/th/id/OIP.ey1e0k-iZR1NGR_VyDwrqwHaEK?pid=Api&P=0&h=180" alt="Image not Found" width="500",height="500"> <br>
+    <a href="https://www.google.com">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.ey1e0k-iZR1NGR_VyDwrqwHaEK?pid=Api&P=0&h=180" alt="Image not Found"
+            width="500" ,height="500">
+    </a> <br>
 
-        <img src="naturePic.jpg" alt="pic not found",width="500",height="500"> <br>
+    <img src="naturePic.jpg" alt="pic not found" ,width="500" ,height="500"> <br>
 
 
 
-        <h2>Background Image</h2>
+    <h2>Background Image</h2>
 
-<p>A background image for a p element:</p>
+    <p>A background image for a p element:</p>
 
-<p style="background-image: url('naturePic.jpg');">
-You can specify background images<br>
-for any visible HTML element.<br>
-In this example, the background image<br>
-is specified for a p element.<br>
-By default, the background-image<br>
-will repeat itself in the direction(s)<br>
-where it is smaller than the element<br>
-where it is specified. (Try resizing the<br>
-browser window to see how the<br>
-background image behaves.
-</p>
-   </body>
+    <p style="background-image: url('naturePic.jpg');">
+        You can specify background images<br>
+        for any visible HTML element.<br>
+        In this example, the background image<br>
+        is specified for a p element.<br>
+        By default, the background-image<br>
+        will repeat itself in the direction(s)<br>
+        where it is smaller than the element<br>
+        where it is specified. (Try resizing the<br>
+        browser window to see how the<br>
+        background image behaves.
+    </p>
+
+    <table>
+        <caption>My First Table</caption>
+        <colgroup>
+            <col span="1" style="background-color:yellow;">
+            <col span="2" style="background-color:cyan;">
+            <col span="3" style="background-color:magenta;">
+            <col span="2" style="visibility:collapse;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Shashank</td>
+                <td>21</td>
+                <td>Niladri nagar Bangalore</td>
+            </tr>
+            <tr>
+                <td>Sharath</td>
+                <td>22</td>
+                <td>Niladri nagar Bangalore</td>
+            </tr>
+            <tr>
+                <td>Shivaji</td>
+                <td>23</td>
+                <td>Niladri nagar Bangalore</td>
+            </tr>
+            <tr>
+                <td>Shivkumar</td>
+                <td>23</td>
+                <td>Niladri nagar Bangalore</td>
+            </tr>
+            <tr>
+                <td>Kiran</td>
+                <td>23</td>
+                <td> Bangalore</td>
+            </tr>
+            <tr>
+                <td>Shankar</td>
+                <td>23</td>
+                <td>BTM Layout</td>
+            </tr>
+            <tr>
+                <td>Shashi</td>
+                <td>23</td>
+                <td>BTM Layout</td>
+            </tr>
+            <tr>
+                <td>Karna</td>
+                <td>23</td>
+                <td>Rajajinagar</td>
+            </tr>
+            <tr>
+                <td>Karthik</td>
+                <td>24</td>
+                <td>Yashvanthpura</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul style="list-style-type:circle;"> >
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+    <ul style="list-style-type:square;">
+        <li>ML</li>
+        <li>DL</li>
+        <li>Data Science</li>
+        <li>java</li>
+    </ul>
+    <ol style="list-style-type:upper-roman;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ol>
+    <ol type="A" start="5" style="list-style-type:upper-alpha;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for the web</dd>
+        <dt>Python</dt>
+        <dd>A high-level programming language</dd>
+    </dl>
+
+</body>
+
 </html>
