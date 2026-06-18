@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Important HTML Tags</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        article {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+        }
+        aside {
+            float: right;
+            width: 25%;
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin-left: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            clear: both;
+        }
+        .content {
+            overflow: auto;
+        }
+        code {
+            background-color: #f1c40f;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-left: 15px;
+            font-style: italic;
+            color: #555;
+        }
+        form {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input, select, textarea, button {
+            margin: 10px 0;
+            padding: 8px;
+            border: 1px solid #bdc3c7;
+            border-radius: 3px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figcaption {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+        }
+        address {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            font-style: italic;
+        }
+        time {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER: Main heading section -->
+    <header>
+        <h1>Complete Guide to Important HTML Tags</h1>
+        <p>A comprehensive demonstration of all essential HTML5 tags</p>
+    </header>
+
+    <!-- NAV: Navigation bar -->
+    <nav>
+        <a href="#semantic">Semantic Tags</a>
+        <a href="#text">Text Formatting</a>
+        <a href="#lists">Lists</a>
+        <a href="#media">Media</a>
+        <a href="#form">Forms</a>
+        <a href="#table">Tables</a>
+        <a href="#blocks">Block Elements</a>
+    </nav>
+
+    <!-- MAIN: Main content container -->
+    <main>
+        <!-- SECTION 1: Semantic Tags -->
+        <section id="semantic">
+            <h2>Semantic HTML Tags</h2>
+            
+            <article>
+                <h3>Understanding Semantic Tags</h3>
+                <p>Semantic tags clearly define the meaning of the content. They help both the browser and the developer understand the purpose of the content.</p>
+                
+                <aside>
+                    <h4>Quick Tips</h4>
+                    <ul>
+                        <li>Use <strong>&lt;header&gt;</strong> for page header</li>
+                        <li>Use <strong>&lt;nav&gt;</strong> for navigation</li>
+                        <li>Use <strong>&lt;main&gt;</strong> for main content</li>
+                        <li>Use <strong>&lt;footer&gt;</strong> for page footer</li>
+                    </ul>
+                </aside>
+                
+                <div class="content">
+                    <p>This <article> tag wraps an independent piece of content. This <section> tag groups related content together.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- SECTION 2: Text Formatting Tags -->
+        <section id="text">
+            <h2>Text Formatting Tags</h2>
+            
+            <p>
+                <strong>This text is important (strong tag)</strong> - Use for strong importance<br>
+                <em>This text is emphasized (em tag)</em> - Use for stress emphasis<br>
+                <mark>This text is highlighted (mark tag)</mark> - Use to highlight text<br>
+                <del>This text is deleted (del tag)</del> - Use to show deleted text<br>
+                <ins>This text is inserted (ins tag)</ins> - Use to show inserted text<br>
+                H<sub>2</sub>O - Use <code>&lt;sub&gt;</code> for subscript<br>
+                E=mc<sup>2</sup> - Use <code>&lt;sup&gt;</code> for superscript<br>
+                <small>This text is small (small tag)</small> - Use for fine print
+            </p>
+
+            <blockquote>
+                "The best way to predict the future is to invent it." - Alan Kay
+            </blockquote>
+
+            <p>
+                Code example: <code>function hello() { console.log('Hello!'); }</code>
+            </p>
+
+            <pre><code>
+// Pre-formatted code block
+function example() {
+    return "This preserves formatting";
+}
+            </code></pre>
+        </section>
+
+        <!-- SECTION 3: Lists -->
+        <section id="lists">
+            <h2>List Tags</h2>
+
+            <h3>Unordered List (ul with li tags):</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <h3>Ordered List (ol with li tags):</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+
+            <h3>Description List (dl, dt, dd tags):</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language - Used for creating web pages</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets - Used for styling web pages</dd>
+                <dt>JavaScript</dt>
+                <dd>Programming language for adding interactivity to web pages</dd>
+            </dl>
+        </section>
+
+        <!-- SECTION 4: Media Tags -->
+        <section id="media">
+            <h2>Media Tags</h2>
+
+            <h3>Image Tag (img):</h3>
+            <p>
+                <img src="https://via.placeholder.com/200" alt="Placeholder image example">
+            </p>
+
+            <h3>Figure and Figcaption Tags:</h3>
+            <figure>
+                <img src="https://via.placeholder.com/300x150" alt="Sample figure">
+                <figcaption>Figure 1: This is a sample figure with a caption</figcaption>
+            </figure>
+
+            <h3>Audio Tag:</h3>
+            <audio controls style="width: 100%; margin-top: 10px;">
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Tag:</h3>
+            <video width="400" height="300" controls style="margin-top: 10px;">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- SECTION 5: Form Elements -->
+        <section id="form">
+            <h2>Form Tags</h2>
+
+            <form action="/submit" method="post">
+                <h3>Input Types:</h3>
+                
+                <label for="text-input">Text Input:</label>
+                <input type="text" id="text-input" placeholder="Enter your name" required>
+
+                <label for="email-input">Email Input:</label>
+                <input type="email" id="email-input" placeholder="Enter your email">
+
+                <label for="password-input">Password Input:</label>
+                <input type="password" id="password-input" placeholder="Enter password">
+
+                <label for="number-input">Number Input:</label>
+                <input type="number" id="number-input" placeholder="Enter a number">
+
+                <label for="date-input">Date Input:</label>
+                <input type="date" id="date-input">
+
+                <h3>Select Tag (dropdown):</h3>
+                <label for="select-option">Choose an option:</label>
+                <select id="select-option">
+                    <option value="">-- Select --</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+
+                <h3>Textarea:</h3>
+                <label for="textarea">Comments:</label>
+                <textarea id="textarea" rows="4" cols="50" placeholder="Enter your comments..."></textarea>
+
+                <h3>Radio Buttons:</h3>
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+
+                <h3>Checkboxes:</h3>
+                <label>
+                    <input type="checkbox" name="interests" value="html"> HTML
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="css"> CSS
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="js"> JavaScript
+                </label>
+
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </section>
+
+        <!-- SECTION 6: Tables -->
+        <section id="table">
+            <h2>Table Tags (table, thead, tbody, tfoot, tr, th, td):</h2>
+
+            <table>
+                <caption>Student Information</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shashank</td>
+                        <td>HTML</td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td>Priya</td>
+                        <td>CSS</td>
+                        <td>88</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul</td>
+                        <td>JavaScript</td>
+                        <td>92</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Average</th>
+                        <th>91.67</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- SECTION 7: Block & Inline Elements -->
+        <section id="blocks">
+            <h2>Block & Inline Elements</h2>
+
+            <h3>Div Tag (block element):</h3>
+            <div style="background-color: #e74c3c; color: white; padding: 20px; margin: 10px 0; border-radius: 5px;">
+                This is a DIV element - a block-level container
+            </div>
+
+            <h3>Span Tag (inline element):</h3>
+            <p>
+                This is a paragraph with <span style="background-color: #f39c12; color: white; padding: 2px 5px; border-radius: 3px;">span element</span> inside it.
+            </p>
+
+            <h3>Horizontal Rule (hr):</h3>
+            <hr>
+
+            <h3>Line Break (br):</h3>
+            <p>
+                Line 1<br>
+                Line 2<br>
+                Line 3
+            </p>
+
+            <h3>Paragraph Tag (p):</h3>
+            <p>This is a paragraph. Paragraphs are block-level elements used to structure text.</p>
+
+            <h3>Heading Tags (h1 to h6):</h3>
+            <h1>Heading 1 (h1)</h1>
+            <h2>Heading 2 (h2)</h2>
+            <h3>Heading 3 (h3)</h3>
+            <h4>Heading 4 (h4)</h4>
+            <h5>Heading 5 (h5)</h5>
+            <h6>Heading 6 (h6)</h6>
+
+            <h3>Anchor Tag (a) - Hyperlink:</h3>
+            <p>
+                <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a><br>
+                <a href="https://www.mdn.org" title="MDN Web Docs">MDN Documentation</a>
+            </p>
+
+            <h3>Address Tag:</h3>
+            <address>
+                Xworkz Internship<br>
+                Bangalore, India<br>
+                Email: info@xworkz.com
+            </address>
+
+            <h3>Time Tag:</h3>
+            <p>
+                The event is scheduled on <time datetime="2026-06-18">June 18, 2026</time>
+            </p>
+        </section>
+
+        <!-- Additional Information -->
+        <section>
+            <h2>Additional Important Tags</h2>
+
+            <h3>Quote Tag (q):</h3>
+            <p>
+                According to the HTML spec, <q>the Q element represents some phrasing content quoted from another source</q>.
+            </p>
+
+            <h3>Citation (cite):</h3>
+            <p>
+                <cite>Web Design by John Doe</cite> is a great book on web design.
+            </p>
+
+            <h3>Abbreviation (abbr):</h3>
+            <p>
+                <abbr title="HyperText Markup Language">HTML</abbr> is used to create web pages.
+            </p>
+
+            <h3>Keyboard Input (kbd):</h3>
+            <p>
+                Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text.
+            </p>
+
+            <h3>Variable (var):</h3>
+            <p>
+                In the equation <var>a</var> + <var>b</var> = <var>c</var>, we need to find <var>c</var>.
+            </p>
+
+            <h3>Sample Output (samp):</h3>
+            <p>
+                The computer responded with: <samp>File not found</samp>
+            </p>
+        </section>
+    </main>
+
+    <!-- FOOTER: Page footer -->
+    <footer>
+        <p>&copy; 2026 All Important HTML Tags Tutorial. All rights reserved.</p>
+        <p>Created for Xworkz Internship - Web Development</p>
+    </footer>
+</body>
+</html>    
